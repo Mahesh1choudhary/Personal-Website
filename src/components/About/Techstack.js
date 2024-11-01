@@ -16,7 +16,14 @@ import {
   SiNextdotjs,
   SiSolidity,
   SiPostgresql,
+  SiKubernetes,
+  SiDocker,
+  SiLinux,
 } from "react-icons/si";
+
+import { AiOutlineDocker } from "react-icons/ai";
+import { AiOutlineKubernetes } from "react-icons/ai";
+import linux_logo from "../../Assets/linux.svg";
 import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
@@ -25,9 +32,21 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <DiPython />
+      </Col>
+      
+
+      {/*}
       <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
       </Col>
@@ -46,9 +65,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNextdotjs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
@@ -58,12 +75,31 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
+
+      */}
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <DiGit />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+      <SiLinux />
+      </Col>
+      
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKubernetes />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiKubernetes />
       </Col>
+
+      
+      
     </Row>
   );
 }

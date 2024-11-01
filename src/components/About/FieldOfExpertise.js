@@ -2,6 +2,13 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
+{/* 
+    
+    data structures and algorithms, operatings systems, etc
+    
+    */}
+
+
 function AboutCard() {
   return (
     <Card className="quote-card-view">

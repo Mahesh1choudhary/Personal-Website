@@ -5,7 +5,8 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import concurrent_lru_cache from "../../Assets/Projects/concurrent_lru_cache.png";
+import cryptocurrencylogo from "../../Assets/Projects/cryptocurrencylogo.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,26 +24,27 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={concurrent_lru_cache}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Concurrent_LRU_Cache"
+              description="Efficient implementation of thread-safe LRU cache with thread-safe singly-linked list and thread-safe hashmap as building blocks. This project is written in C++."
+              ghLink="https://github.com/Mahesh1choudhary/Concurrent_LRU_cache"
+              //demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={cryptocurrencylogo}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Cryptocurrency"
+              description="Functional cryptocurrency model, similar to bitcoin written in java."
+              ghLink="https://github.com/Mahesh1choudhary/Cryptocurrency."
+              //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
+          {/*
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
@@ -87,6 +89,7 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
+          */}
         </Row>
       </Container>
     </Container>

@@ -8,6 +8,10 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Codeforceslogo from "../../Assets/Codeforces_logo.svg";
+import Codecheflogo from "../../Assets/codechef_logo.svg";
+
+
 
 function Home2() {
   return (
@@ -19,13 +23,22 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              
+              Myself Mahesh Choudhary and I am a software developer and competitive programmer. I am fluent in classic programming languages like{" "}
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
+                <b className="purple">C++, Java, MySQL, </b> 
+              </i> 
+              , etc.
+
+              <br />
+              <br />
+              I am particulary interested in advanced C++, ultra low latency and quantitative fields.
+
+              <br/>
+              <br/>
+              If you want to know more about me , you can check "About" section.
+              
+              {/*
               <br />
               <br />
               My field of Interest's are building new &nbsp;
@@ -36,6 +49,7 @@ function Home2() {
                   Blockchain.
                 </b>
               </i>
+              
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
@@ -50,7 +64,11 @@ function Home2() {
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
+              */}
             </p>
+            
+
+
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
@@ -67,7 +85,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Mahesh1choudhary"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,6 +93,9 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
+              
+
+              {/*
               <li className="social-icons">
                 <a
                   href="https://twitter.com/Soumyajit4419"
@@ -85,9 +106,10 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a>
               </li>
+              */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/mahesh-choudhary-53b185229/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,9 +117,38 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
+
+
+
+
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://codeforces.com/profile/maheshc1"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <img src={Codeforceslogo} className="img-fluid logo" alt="brand" />
+                </a>
+              </li>
+                
+              <li className="social-icons">
+                <a
+                  href="https://www.codechef.com/users/mahesh_1j"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <img src={Codecheflogo} className="img-fluid logo" alt="brand" />
+                </a>
+              </li>
+
+                  
+
+
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/mahesh_choudhary.01/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
